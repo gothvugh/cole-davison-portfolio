@@ -6,6 +6,8 @@
 
 body {
   margin-top: 0.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   overflow-x: hidden;
   color: #302B2A;
@@ -104,6 +106,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: left;
+  }
+
+  body {
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
 }
